@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import Feed from './components/Feed.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import './index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
