@@ -1,6 +1,8 @@
 const Feed = () => {
   return (
-    <div>Feed</div>
+    <section className="bg-black">
+      <Post />
+    </section>
   )
 }
 
