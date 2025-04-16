@@ -1,9 +1,11 @@
-import Post from './Post.jsx'
+import Post from './Post'
 
 const Feed = () => {
-  return (
-    <div>Feed</div>
-  )
+    return (
+        <section className="bg-black">
+            <Post />
+        </section>
+    )
 }
 
 export default Feed
